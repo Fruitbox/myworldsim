@@ -21,12 +21,17 @@ public class CrewModuelModel {
 		 * 
 		 */
 		
-	public CrewModuelModel(String model, String organization) {
+	public CrewModuelModel(String model, String organization, int crewMembers) {
 		this.model   = model;
 		this.organization = organization;
 		this.crewMembers = crewMembers; 
 		
 		
+	}
+
+
+	public CrewModuelModel() {
+		// TODO Auto-generated constructor stub
 	}
 
 }

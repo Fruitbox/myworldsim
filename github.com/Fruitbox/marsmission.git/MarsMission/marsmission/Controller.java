@@ -10,7 +10,7 @@ public class Controller {
 	 * Class Constants
 	 * 
 	 */
-	public static String 	VERSION = "Version: 0.0.4";
+	public static String 	VERSION = "Version: 0.0.2";
 	
 	/*
 	 * Constructor

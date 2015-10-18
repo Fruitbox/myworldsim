@@ -1,6 +1,6 @@
 package marsmission;
 
-public class LaunchAbortSystemModel {
+public class SRBModel {
 	/*
 	 * Class Instance Variables
 	 * 
@@ -15,10 +15,8 @@ public class LaunchAbortSystemModel {
 	 * Construcutors
 	 * 
 	 */
-	
-	public LaunchAbortSystemModel()
-	{
-		
+	public SRBModel() {
+
 	}
 
 }

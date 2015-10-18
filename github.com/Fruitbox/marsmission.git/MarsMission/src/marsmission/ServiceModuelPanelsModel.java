@@ -1,11 +1,12 @@
 package marsmission;
 
-public class SRBModel {
+public class ServiceModuelPanelsModel {
+
 	/*
 	 * class instance var
 	 */
+	
 		
-
 		/*
 		 * class constants
 		 * 
@@ -16,5 +17,9 @@ public class SRBModel {
 		/*contstructors
 		 * 
 		 */
+		
+	public ServiceModuelPanelsModel() {
+		// TODO Auto-generated constructor stub
+	}
 
 }

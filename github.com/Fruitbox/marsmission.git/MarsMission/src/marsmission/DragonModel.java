@@ -1,5 +1,5 @@
 package marsmission;
 
-public class ICPSModel {
+public class DragonModel {
 
 }
