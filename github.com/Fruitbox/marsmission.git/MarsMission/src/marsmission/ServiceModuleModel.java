@@ -6,6 +6,9 @@ public class ServiceModuleModel {
 	 * 
 	 */
 	
+	private ServiceModulePanelsModel		serviceModulePanels;
+	private SpacecraftAdapterModel			spacecraftAdapter;
+
 	/*
 	 * Class Constants
 	 * 
@@ -15,7 +18,10 @@ public class ServiceModuleModel {
 	 * Construcutors
 	 * 
 	 */
+	
 	public ServiceModuleModel() {
+		serviceModulePanels = new ServiceModulePanelsModel();
+		spacecraftAdapter   = new SpacecraftAdapterModel();
 	}
 
 }

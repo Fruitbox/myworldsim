@@ -1,7 +1,5 @@
 package marsmission;
 
-import com.sun.glass.ui.View;
-
 import javafx.application.Application;
 import javafx.stage.Stage;
 

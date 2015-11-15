@@ -4,8 +4,8 @@ public class BARModel {
 	/*
 	 * Class Instance Variable
 	 */
-	private PayLoadModel					payload;
-	private EnginesModel					engines;
+	private PayloadModel					payload;
+	private EngineModel					engines;
 	
 	/*
 	 * Class Constants
@@ -15,7 +15,7 @@ public class BARModel {
 	 * Constructors
 	 */
 	
-	public BARModel(PayLoadModel payload, EnginesModel engines){
+	public BARModel(PayloadModel payload, EngineModel engines){
 		this.payload 		= payload;
 		this.engines     	= engines;
 		

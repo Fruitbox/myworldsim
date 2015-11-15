@@ -1,14 +1,12 @@
 package marsmission;
 
-public class CrewModuleModel extends PayLoadModel { 
+public class CrewModuleModel extends PayloadModel {
 	/*
 	 * Class Instance Variables
 	 * 
 	 */
-	private String 		model;
-	private String		organization;
-	private int			crewMembers;
 	
+	private int			crewMembers;
 	
 	/*
 	 * Class Constants
@@ -20,9 +18,9 @@ public class CrewModuleModel extends PayLoadModel {
 	 * 
 	 */
 	
-	public CrewModuleModel(String model, String organization, int crewMembers){
-		this.model			= model;
-		this.organization	= organization;
+	public CrewModuleModel(int type, String model, String organization, int crewMembers){
+		super(type, model, organization);
+		
 		this.crewMembers	= crewMembers;
 		
 	}
